@@ -1,12 +1,12 @@
-import Button from '@material-ui/core/Button'
+import Header from "./components/Header";
+import MainCarousel from "./components/MainCarousel"
 
 function App() {
   return (
-    <div>
-      <Button variant="contained" color="secondary">
-        Secondary
-      </Button>
-    </div>
+    <>
+      <Header />
+      <MainCarousel />
+    </>
   );
 }
 
