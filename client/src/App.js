@@ -1,11 +1,12 @@
+import React from "react";
 import Header from "./components/Header";
-import MainCarousel from "./components/MainCarousel"
+import MainRoutes from "./routes/MainRoutes";
 
 function App() {
   return (
     <>
       <Header />
-      <MainCarousel />
+      <MainRoutes />
     </>
   );
 }

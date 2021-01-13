@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
       justifyContent: 'center',
       width: '100%'
+    },
+    link_style: {
+      textDecoration: 'none'
     }
   }));
 
